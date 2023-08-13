@@ -45,5 +45,5 @@ void print(Node *head){
 
 int main(){
     Node *n1 = takeInput();
-    print(n1);
+    
 }

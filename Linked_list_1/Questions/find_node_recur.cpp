@@ -33,8 +33,7 @@ Node* Take_Input(){
 }
 
 int Find_Node(Node* head,int data,int index){
-    int count = 0;
-    int exist = 0;  
+      
     if(head == NULL){//if not found throughout -1 will be returned
         return -1;
     }

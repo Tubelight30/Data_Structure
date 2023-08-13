@@ -1,4 +1,7 @@
 //!mergesort a LL(Divider and Conquer)
+//!so we get a LL we divide into two parts and then we sort each part(mergesort function) and then we merge them.
+//!we will use recursion to divide into parts.
+//!we will use mergeSortedLL function to merge the two sorted LL.
 #include<iostream>
 using namespace std;
 
