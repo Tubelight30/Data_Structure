@@ -35,7 +35,7 @@ int firstOcc(int arr[],int low,int high,int x){
 }
 int main(){
     int arr[] = {1,2,3,4,20,20};
-    int arr2[] = {5,5,5};
-    int ans = firstOcc(arr2,0,2,5);
-    cout<<ans;
+    int arr2[] = {5,5,5,5,5,5};
+    int ans = firstOcc(arr2,0,5,5);
+    cout<<ans<<endl;
 }
